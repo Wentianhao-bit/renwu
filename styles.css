@@ -11,20 +11,31 @@ h1 {
     color: #444;
 }
 
-#task-list {
-    margin: 20px auto;
-    max-width: 800px;
+#filter {
+    margin: 20px 0;
+    text-align: center;
 }
 
-.task-item {
+#schedule-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
     background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.task-item p {
-    margin: 5px 0;
+#schedule-table th, #schedule-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#schedule-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+#schedule-table tbody tr:hover {
+    background-color: #f1f1f1;
 }

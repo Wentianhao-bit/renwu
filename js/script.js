@@ -24,7 +24,7 @@ const staffMembers = [
     { id: 7, name: '实习生' },
     { id: 8, name: '孟祥永' },
     { id: 9, name: '实习生' },
-    { id: 10, name: '实习生2' },
+    { id: 10, name: '赵鹏程' },
     { id: 11, name: '耿琦斌' },
     { id: 12, name: '实习生' },
 ];
